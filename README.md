@@ -48,169 +48,151 @@ This repository serves as the definitive collection of Claude Code subagents - s
 </a>
 
 
-## 📚 Categories
+## 📚 All 125 Subagents
 
-### [01. Core Development](categories/01-core-development/)
-Essential development subagents for everyday coding tasks.
+All subagents are now available in the `agents/` folder, organized by specialty. Browse by category or search by name:
 
-- [**api-designer**](categories/01-core-development/api-designer.md) - REST and GraphQL API architect
-- [**backend-developer**](categories/01-core-development/backend-developer.md) - Server-side expert for scalable APIs
-- [**electron-pro**](categories/01-core-development/electron-pro.md) - Desktop application expert
-- [**frontend-developer**](categories/01-core-development/frontend-developer.md) - UI/UX specialist for React, Vue, and Angular
-- [**fullstack-developer**](categories/01-core-development/fullstack-developer.md) - End-to-end feature development
-- [**graphql-architect**](categories/01-core-development/graphql-architect.md) - GraphQL schema and federation expert
-- [**microservices-architect**](categories/01-core-development/microservices-architect.md) - Distributed systems designer
-- [**mobile-developer**](categories/01-core-development/mobile-developer.md) - Cross-platform mobile specialist
-- [**ui-designer**](categories/01-core-development/ui-designer.md) - Visual design and interaction specialist
-- [**websocket-engineer**](categories/01-core-development/websocket-engineer.md) - Real-time communication specialist
-- [**wordpress-master**](categories/08-business-product/wordpress-master.md) - WordPress development and optimization expert
+### Core Development
+- [**api-designer**](agents/api-designer.md) - REST and GraphQL API architect
+- [**backend-developer**](agents/backend-developer.md) - Server-side expert for scalable APIs
+- [**electron-pro**](agents/electron-pro.md) - Desktop application expert
+- [**frontend-developer**](agents/frontend-developer.md) - UI/UX specialist for React, Vue, and Angular
+- [**fullstack-developer**](agents/fullstack-developer.md) - End-to-end feature development
+- [**graphql-architect**](agents/graphql-architect.md) - GraphQL schema and federation expert
+- [**microservices-architect**](agents/microservices-architect.md) - Distributed systems designer
+- [**mobile-developer**](agents/mobile-developer.md) - Cross-platform mobile specialist
+- [**ui-designer**](agents/ui-designer.md) - Visual design and interaction specialist
+- [**websocket-engineer**](agents/websocket-engineer.md) - Real-time communication specialist
+- [**wordpress-master**](agents/wordpress-master.md) - WordPress development and optimization expert
 
-### [02. Language Specialists](categories/02-language-specialists/)
-Language-specific experts with deep framework knowledge.
-- [**typescript-pro**](categories/02-language-specialists/typescript-pro.md) - TypeScript specialist
-- [**sql-pro**](categories/02-language-specialists/sql-pro.md) - Database query expert
-- [**swift-expert**](categories/02-language-specialists/swift-expert.md) - iOS and macOS specialist
-- [**vue-expert**](categories/02-language-specialists/vue-expert.md) - Vue 3 Composition API expert
-- [**angular-architect**](categories/02-language-specialists/angular-architect.md) - Angular 15+ enterprise patterns expert
-- [**cpp-pro**](categories/02-language-specialists/cpp-pro.md) - C++ performance expert
-- [**csharp-developer**](categories/02-language-specialists/csharp-developer.md) - .NET ecosystem specialist
-- [**django-developer**](categories/02-language-specialists/django-developer.md) - Django 4+ web development expert
-- [**dotnet-core-expert**](categories/02-language-specialists/dotnet-core-expert.md) - .NET 8 cross-platform specialist
-- [**dotnet-framework-4.8-expert**](categories/02-language-specialists/dotnet-framework-4.8-expert.md) - .NET Framework legacy enterprise specialist
-- [**flutter-expert**](categories/02-language-specialists/flutter-expert.md) - Flutter 3+ cross-platform mobile expert
-- [**golang-pro**](categories/02-language-specialists/golang-pro.md) - Go concurrency specialist
-- [**java-architect**](categories/02-language-specialists/java-architect.md) - Enterprise Java expert
-- [**javascript-pro**](categories/02-language-specialists/javascript-pro.md) - JavaScript development expert
-- [**powershell-5.1-expert**](categories/02-language-specialists/powershell-5.1-expert.md) - Windows PowerShell 5.1 and full .NET Framework automation specialist
-- [**powershell-7-expert**](categories/02-language-specialists/powershell-7-expert.md) - Cross-platform PowerShell 7+ automation and modern .NET specialist
-- [**kotlin-specialist**](categories/02-language-specialists/kotlin-specialist.md) - Modern JVM language expert
-- [**laravel-specialist**](categories/02-language-specialists/laravel-specialist.md) - Laravel 10+ PHP framework expert
-- [**nextjs-developer**](categories/02-language-specialists/nextjs-developer.md) - Next.js 14+ full-stack specialist
-- [**php-pro**](categories/02-language-specialists/php-pro.md) - PHP web development expert
-- [**python-pro**](categories/02-language-specialists/python-pro.md) - Python ecosystem master
-- [**rails-expert**](categories/02-language-specialists/rails-expert.md) - Rails 8.1 rapid development expert
-- [**react-specialist**](categories/02-language-specialists/react-specialist.md) - React 18+ modern patterns expert
-- [**rust-engineer**](categories/02-language-specialists/rust-engineer.md) - Systems programming expert
-- [**spring-boot-engineer**](categories/02-language-specialists/spring-boot-engineer.md) - Spring Boot 3+ microservices expert
+### Language Specialists
+- [**typescript-pro**](agents/typescript-pro.md) - TypeScript specialist
+- [**sql-pro**](agents/sql-pro.md) - Database query expert
+- [**swift-expert**](agents/swift-expert.md) - iOS and macOS specialist
+- [**vue-expert**](agents/vue-expert.md) - Vue 3 Composition API expert
+- [**angular-architect**](agents/angular-architect.md) - Angular 15+ enterprise patterns expert
+- [**cpp-pro**](agents/cpp-pro.md) - C++ performance expert
+- [**csharp-developer**](agents/csharp-developer.md) - .NET ecosystem specialist
+- [**django-developer**](agents/django-developer.md) - Django 4+ web development expert
+- [**dotnet-core-expert**](agents/dotnet-core-expert.md) - .NET 8 cross-platform specialist
+- [**dotnet-framework-4.8-expert**](agents/dotnet-framework-4.8-expert.md) - .NET Framework legacy enterprise specialist
+- [**flutter-expert**](agents/flutter-expert.md) - Flutter 3+ cross-platform mobile expert
+- [**golang-pro**](agents/golang-pro.md) - Go concurrency specialist
+- [**java-architect**](agents/java-architect.md) - Enterprise Java expert
+- [**javascript-pro**](agents/javascript-pro.md) - JavaScript development expert
+- [**powershell-5.1-expert**](agents/powershell-5.1-expert.md) - Windows PowerShell 5.1 and full .NET Framework automation specialist
+- [**powershell-7-expert**](agents/powershell-7-expert.md) - Cross-platform PowerShell 7+ automation and modern .NET specialist
+- [**kotlin-specialist**](agents/kotlin-specialist.md) - Modern JVM language expert
+- [**laravel-specialist**](agents/laravel-specialist.md) - Laravel 10+ PHP framework expert
+- [**nextjs-developer**](agents/nextjs-developer.md) - Next.js 14+ full-stack specialist
+- [**php-pro**](agents/php-pro.md) - PHP web development expert
+- [**python-pro**](agents/python-pro.md) - Python ecosystem master
+- [**rails-expert**](agents/rails-expert.md) - Rails 8.1 rapid development expert
+- [**react-specialist**](agents/react-specialist.md) - React 18+ modern patterns expert
+- [**rust-engineer**](agents/rust-engineer.md) - Systems programming expert
+- [**spring-boot-engineer**](agents/spring-boot-engineer.md) - Spring Boot 3+ microservices expert
 
+### Infrastructure
+- [**azure-infra-engineer**](agents/azure-infra-engineer.md) - Azure infrastructure and Az PowerShell automation expert
+- [**cloud-architect**](agents/cloud-architect.md) - AWS/GCP/Azure specialist
+- [**database-administrator**](agents/database-administrator.md) - Database management expert
+- [**deployment-engineer**](agents/deployment-engineer.md) - Deployment automation specialist
+- [**devops-engineer**](agents/devops-engineer.md) - CI/CD and automation expert
+- [**devops-incident-responder**](agents/devops-incident-responder.md) - DevOps incident management
+- [**incident-responder**](agents/incident-responder.md) - System incident response expert
+- [**kubernetes-specialist**](agents/kubernetes-specialist.md) - Container orchestration master
+- [**network-engineer**](agents/network-engineer.md) - Network infrastructure specialist
+- [**platform-engineer**](agents/platform-engineer.md) - Platform architecture expert
+- [**security-engineer**](agents/security-engineer.md) - Infrastructure security specialist
+- [**sre-engineer**](agents/sre-engineer.md) - Site reliability engineering expert
+- [**terraform-engineer**](agents/terraform-engineer.md) - Infrastructure as Code expert
+- [**windows-infra-admin**](agents/windows-infra-admin.md) - Active Directory, DNS, DHCP, and GPO automation specialist
 
-### [03. Infrastructure](categories/03-infrastructure/)
-DevOps, cloud, and deployment specialists.
+### Quality & Security
+- [**accessibility-tester**](agents/accessibility-tester.md) - A11y compliance expert
+- [**architect-reviewer**](agents/architect-reviewer.md) - Architecture review specialist
+- [**chaos-engineer**](agents/chaos-engineer.md) - System resilience testing expert
+- [**code-reviewer**](agents/code-reviewer.md) - Code quality guardian
+- [**compliance-auditor**](agents/compliance-auditor.md) - Regulatory compliance expert
+- [**debugger**](agents/debugger.md) - Advanced debugging specialist
+- [**error-detective**](agents/error-detective.md) - Error analysis and resolution expert
+- [**penetration-tester**](agents/penetration-tester.md) - Ethical hacking specialist
+- [**performance-engineer**](agents/performance-engineer.md) - Performance optimization expert
+- [**qa-expert**](agents/qa-expert.md) - Test automation specialist
+- [**security-auditor**](agents/security-auditor.md) - Security vulnerability expert
+- [**test-automator**](agents/test-automator.md) - Test automation framework expert
 
-- [**azure-infra-engineer**](categories/03-infrastructure/azure-infra-engineer.md) - Azure infrastructure and Az PowerShell automation expert
-- [**cloud-architect**](categories/03-infrastructure/cloud-architect.md) - AWS/GCP/Azure specialist
-- [**database-administrator**](categories/03-infrastructure/database-administrator.md) - Database management expert
-- [**deployment-engineer**](categories/03-infrastructure/deployment-engineer.md) - Deployment automation specialist
-- [**devops-engineer**](categories/03-infrastructure/devops-engineer.md) - CI/CD and automation expert
-- [**devops-incident-responder**](categories/03-infrastructure/devops-incident-responder.md) - DevOps incident management
-- [**incident-responder**](categories/03-infrastructure/incident-responder.md) - System incident response expert
-- [**kubernetes-specialist**](categories/03-infrastructure/kubernetes-specialist.md) - Container orchestration master
-- [**network-engineer**](categories/03-infrastructure/network-engineer.md) - Network infrastructure specialist
-- [**platform-engineer**](categories/03-infrastructure/platform-engineer.md) - Platform architecture expert
-- [**security-engineer**](categories/03-infrastructure/security-engineer.md) - Infrastructure security specialist
-- [**sre-engineer**](categories/03-infrastructure/sre-engineer.md) - Site reliability engineering expert
-- [**terraform-engineer**](categories/03-infrastructure/terraform-engineer.md) - Infrastructure as Code expert
-- [**windows-infra-admin**](categories/03-infrastructure/windows-infra-admin.md) - Active Directory, DNS, DHCP, and GPO automation specialist
+### Data & AI
+- [**ai-engineer**](agents/ai-engineer.md) - AI system design and deployment expert
+- [**data-analyst**](agents/data-analyst.md) - Data insights and visualization specialist
+- [**data-engineer**](agents/data-engineer.md) - Data pipeline architect
+- [**data-scientist**](agents/data-scientist.md) - Analytics and insights expert
+- [**database-optimizer**](agents/database-optimizer.md) - Database performance specialist
+- [**llm-architect**](agents/llm-architect.md) - Large language model architect
+- [**machine-learning-engineer**](agents/machine-learning-engineer.md) - Machine learning systems expert
+- [**ml-engineer**](agents/ml-engineer.md) - Machine learning specialist
+- [**mlops-engineer**](agents/mlops-engineer.md) - MLOps and model deployment expert
+- [**nlp-engineer**](agents/nlp-engineer.md) - Natural language processing expert
+- [**postgres-pro**](agents/postgres-pro.md) - PostgreSQL database expert
+- [**prompt-engineer**](agents/prompt-engineer.md) - Prompt optimization specialist
 
-### [04. Quality & Security](categories/04-quality-security/)
-Testing, security, and code quality experts.
+### Developer Experience
+- [**build-engineer**](agents/build-engineer.md) - Build system specialist
+- [**cli-developer**](agents/cli-developer.md) - Command-line tool creator
+- [**dependency-manager**](agents/dependency-manager.md) - Package and dependency specialist
+- [**documentation-engineer**](agents/documentation-engineer.md) - Technical documentation expert
+- [**dx-optimizer**](agents/dx-optimizer.md) - Developer experience optimization specialist
+- [**git-workflow-manager**](agents/git-workflow-manager.md) - Git workflow and branching expert
+- [**legacy-modernizer**](agents/legacy-modernizer.md) - Legacy code modernization specialist
+- [**mcp-developer**](agents/mcp-developer.md) - Model Context Protocol specialist
+- [**powershell-ui-architect**](agents/powershell-ui-architect.md) - PowerShell UI/UX specialist for WinForms, WPF, Metro frameworks, and TUIs
+- [**powershell-module-architect**](agents/powershell-module-architect.md) - PowerShell module and profile architecture specialist
+- [**refactoring-specialist**](agents/refactoring-specialist.md) - Code refactoring expert
+- [**tooling-engineer**](agents/tooling-engineer.md) - Developer tooling specialist
 
-- [**accessibility-tester**](categories/04-quality-security/accessibility-tester.md) - A11y compliance expert
-- [**architect-reviewer**](categories/04-quality-security/architect-reviewer.md) - Architecture review specialist
-- [**chaos-engineer**](categories/04-quality-security/chaos-engineer.md) - System resilience testing expert
-- [**code-reviewer**](categories/04-quality-security/code-reviewer.md) - Code quality guardian
-- [**compliance-auditor**](categories/04-quality-security/compliance-auditor.md) - Regulatory compliance expert
-- [**debugger**](categories/04-quality-security/debugger.md) - Advanced debugging specialist
-- [**error-detective**](categories/04-quality-security/error-detective.md) - Error analysis and resolution expert
-- [**penetration-tester**](categories/04-quality-security/penetration-tester.md) - Ethical hacking specialist
-- [**performance-engineer**](categories/04-quality-security/performance-engineer.md) - Performance optimization expert
-- [**qa-expert**](categories/04-quality-security/qa-expert.md) - Test automation specialist
-- [**security-auditor**](categories/04-quality-security/security-auditor.md) - Security vulnerability expert
-- [**test-automator**](categories/04-quality-security/test-automator.md) - Test automation framework expert
+### Specialized Domains
+- [**api-documenter**](agents/api-documenter.md) - API documentation specialist
+- [**blockchain-developer**](agents/blockchain-developer.md) - Web3 and crypto specialist
+- [**embedded-systems**](agents/embedded-systems.md) - Embedded and real-time systems expert
+- [**fintech-engineer**](agents/fintech-engineer.md) - Financial technology specialist
+- [**game-developer**](agents/game-developer.md) - Game development expert
+- [**iot-engineer**](agents/iot-engineer.md) - IoT systems developer
+- [**m365-admin**](agents/m365-admin.md) - Microsoft 365, Exchange Online, Teams, and SharePoint administration specialist
+- [**mobile-app-developer**](agents/mobile-app-developer.md) - Mobile application specialist
+- [**payment-integration**](agents/payment-integration.md) - Payment systems expert
+- [**quant-analyst**](agents/quant-analyst.md) - Quantitative analysis specialist
+- [**risk-manager**](agents/risk-manager.md) - Risk assessment and management expert
+- [**seo-specialist**](agents/seo-specialist.md) - Search engine optimization expert
 
-### [05. Data & AI](categories/05-data-ai/)
-Data engineering, ML, and AI specialists.
+### Business & Product
+- [**business-analyst**](agents/business-analyst.md) - Requirements specialist
+- [**content-marketer**](agents/content-marketer.md) - Content marketing specialist
+- [**customer-success-manager**](agents/customer-success-manager.md) - Customer success expert
+- [**legal-advisor**](agents/legal-advisor.md) - Legal and compliance specialist
+- [**product-manager**](agents/product-manager.md) - Product strategy expert
+- [**project-manager**](agents/project-manager.md) - Project management specialist
+- [**sales-engineer**](agents/sales-engineer.md) - Technical sales expert
+- [**scrum-master**](agents/scrum-master.md) - Agile methodology expert
+- [**technical-writer**](agents/technical-writer.md) - Technical documentation specialist
+- [**ux-researcher**](agents/ux-researcher.md) - User research expert
 
-- [**ai-engineer**](categories/05-data-ai/ai-engineer.md) - AI system design and deployment expert
-- [**data-analyst**](categories/05-data-ai/data-analyst.md) - Data insights and visualization specialist
-- [**data-engineer**](categories/05-data-ai/data-engineer.md) - Data pipeline architect
-- [**data-scientist**](categories/05-data-ai/data-scientist.md) - Analytics and insights expert
-- [**database-optimizer**](categories/05-data-ai/database-optimizer.md) - Database performance specialist
-- [**llm-architect**](categories/05-data-ai/llm-architect.md) - Large language model architect
-- [**machine-learning-engineer**](categories/05-data-ai/machine-learning-engineer.md) - Machine learning systems expert
-- [**ml-engineer**](categories/05-data-ai/ml-engineer.md) - Machine learning specialist
-- [**mlops-engineer**](categories/05-data-ai/mlops-engineer.md) - MLOps and model deployment expert
-- [**nlp-engineer**](categories/05-data-ai/nlp-engineer.md) - Natural language processing expert
-- [**postgres-pro**](categories/05-data-ai/postgres-pro.md) - PostgreSQL database expert
-- [**prompt-engineer**](categories/05-data-ai/prompt-engineer.md) - Prompt optimization specialist
+### Meta & Orchestration
+- [**agent-organizer**](agents/agent-organizer.md) - Multi-agent coordinator
+- [**context-manager**](agents/context-manager.md) - Context optimization expert
+- [**error-coordinator**](agents/error-coordinator.md) - Error handling and recovery specialist
+- [**knowledge-synthesizer**](agents/knowledge-synthesizer.md) - Knowledge aggregation expert
+- [**multi-agent-coordinator**](agents/multi-agent-coordinator.md) - Advanced multi-agent orchestration
+- [**performance-monitor**](agents/performance-monitor.md) - Agent performance optimization
+- [**task-distributor**](agents/task-distributor.md) - Task allocation specialist
+- [**workflow-orchestrator**](agents/workflow-orchestrator.md) - Complex workflow automation
 
-### [06. Developer Experience](categories/06-developer-experience/)
-Tooling and developer productivity experts.
-
-- [**build-engineer**](categories/06-developer-experience/build-engineer.md) - Build system specialist
-- [**cli-developer**](categories/06-developer-experience/cli-developer.md) - Command-line tool creator
-- [**dependency-manager**](categories/06-developer-experience/dependency-manager.md) - Package and dependency specialist
-- [**documentation-engineer**](categories/06-developer-experience/documentation-engineer.md) - Technical documentation expert
-- [**dx-optimizer**](categories/06-developer-experience/dx-optimizer.md) - Developer experience optimization specialist
-- [**git-workflow-manager**](categories/06-developer-experience/git-workflow-manager.md) - Git workflow and branching expert
-- [**legacy-modernizer**](categories/06-developer-experience/legacy-modernizer.md) - Legacy code modernization specialist
-- [**mcp-developer**](categories/06-developer-experience/mcp-developer.md) - Model Context Protocol specialist
-- [**powershell-ui-architect**](categories/06-developer-experience/powershell-ui-architect.md) - PowerShell UI/UX specialist for WinForms, WPF, Metro frameworks, and TUIs
-- [**powershell-module-architect**](categories/06-developer-experience/powershell-module-architect.md) - PowerShell module and profile architecture specialist
-- [**refactoring-specialist**](categories/06-developer-experience/refactoring-specialist.md) - Code refactoring expert
-- [**tooling-engineer**](categories/06-developer-experience/tooling-engineer.md) - Developer tooling specialist
-
-### [07. Specialized Domains](categories/07-specialized-domains/)
-Domain-specific technology experts.
-
-- [**api-documenter**](categories/07-specialized-domains/api-documenter.md) - API documentation specialist
-- [**blockchain-developer**](categories/07-specialized-domains/blockchain-developer.md) - Web3 and crypto specialist
-- [**embedded-systems**](categories/07-specialized-domains/embedded-systems.md) - Embedded and real-time systems expert
-- [**fintech-engineer**](categories/07-specialized-domains/fintech-engineer.md) - Financial technology specialist
-- [**game-developer**](categories/07-specialized-domains/game-developer.md) - Game development expert
-- [**iot-engineer**](categories/07-specialized-domains/iot-engineer.md) - IoT systems developer
-- [**m365-admin**](categories/07-specialized-domains/m365-admin.md) - Microsoft 365, Exchange Online, Teams, and SharePoint administration specialist
-- [**mobile-app-developer**](categories/07-specialized-domains/mobile-app-developer.md) - Mobile application specialist
-- [**payment-integration**](categories/07-specialized-domains/payment-integration.md) - Payment systems expert
-- [**quant-analyst**](categories/07-specialized-domains/quant-analyst.md) - Quantitative analysis specialist
-- [**risk-manager**](categories/07-specialized-domains/risk-manager.md) - Risk assessment and management expert
-- [**seo-specialist**](categories/07-specialized-domains/seo-specialist.md) - Search engine optimization expert
-
-### [08. Business & Product](categories/08-business-product/)
-Product management and business analysis.
-
-- [**business-analyst**](categories/08-business-product/business-analyst.md) - Requirements specialist
-- [**content-marketer**](categories/08-business-product/content-marketer.md) - Content marketing specialist
-- [**customer-success-manager**](categories/08-business-product/customer-success-manager.md) - Customer success expert
-- [**legal-advisor**](categories/08-business-product/legal-advisor.md) - Legal and compliance specialist
-- [**product-manager**](categories/08-business-product/product-manager.md) - Product strategy expert
-- [**project-manager**](categories/08-business-product/project-manager.md) - Project management specialist
-- [**sales-engineer**](categories/08-business-product/sales-engineer.md) - Technical sales expert
-- [**scrum-master**](categories/08-business-product/scrum-master.md) - Agile methodology expert
-- [**technical-writer**](categories/08-business-product/technical-writer.md) - Technical documentation specialist
-- [**ux-researcher**](categories/08-business-product/ux-researcher.md) - User research expert
-
-### [09. Meta & Orchestration](categories/09-meta-orchestration/)
-Agent coordination and meta-programming.
-
-- [**agent-organizer**](categories/09-meta-orchestration/agent-organizer.md) - Multi-agent coordinator
-- [**context-manager**](categories/09-meta-orchestration/context-manager.md) - Context optimization expert
-- [**error-coordinator**](categories/09-meta-orchestration/error-coordinator.md) - Error handling and recovery specialist
-- [**knowledge-synthesizer**](categories/09-meta-orchestration/knowledge-synthesizer.md) - Knowledge aggregation expert
-- [**multi-agent-coordinator**](categories/09-meta-orchestration/multi-agent-coordinator.md) - Advanced multi-agent orchestration
-- [**performance-monitor**](categories/09-meta-orchestration/performance-monitor.md) - Agent performance optimization
-- [**task-distributor**](categories/09-meta-orchestration/task-distributor.md) - Task allocation specialist
-- [**workflow-orchestrator**](categories/09-meta-orchestration/workflow-orchestrator.md) - Complex workflow automation
-
-### [10. Research & Analysis](categories/10-research-analysis/)
-Research, search, and analysis specialists.
-
-- [**research-analyst**](categories/10-research-analysis/research-analyst.md) - Comprehensive research specialist
-- [**search-specialist**](categories/10-research-analysis/search-specialist.md) - Advanced information retrieval expert
-- [**trend-analyst**](categories/10-research-analysis/trend-analyst.md) - Emerging trends and forecasting expert
-- [**competitive-analyst**](categories/10-research-analysis/competitive-analyst.md) - Competitive intelligence specialist
-- [**market-researcher**](categories/10-research-analysis/market-researcher.md) - Market analysis and consumer insights
-- [**data-researcher**](categories/10-research-analysis/data-researcher.md) - Data discovery and analysis expert
+### Research & Analysis
+- [**research-analyst**](agents/research-analyst.md) - Comprehensive research specialist
+- [**search-specialist**](agents/search-specialist.md) - Advanced information retrieval expert
+- [**trend-analyst**](agents/trend-analyst.md) - Emerging trends and forecasting expert
+- [**competitive-analyst**](agents/competitive-analyst.md) - Competitive intelligence specialist
+- [**market-researcher**](agents/market-researcher.md) - Market analysis and consumer insights
+- [**data-researcher**](agents/data-researcher.md) - Data discovery and analysis expert
 
 ## 🤖 Understanding Subagents
 

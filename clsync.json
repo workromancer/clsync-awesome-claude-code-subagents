@@ -1,0 +1,81 @@
+{
+  "name": "clsync-awesome-claude-code-subagents",
+  "version": "1.0.0",
+  "description": "100+ specialized AI subagents for full-stack development, DevOps, data science, and business operations",
+  "type": "subagent-collection",
+  "author": "workromancer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/workromancer/clsync-awesome-claude-code-subagents"
+  },
+  "categories": [
+    {
+      "id": "01-core-development",
+      "name": "Core Development",
+      "description": "Essential development subagents covering full-stack, frontend, backend, and specialized roles"
+    },
+    {
+      "id": "02-language-specialists",
+      "name": "Language Specialists",
+      "description": "Language-specific expert agents for various programming languages"
+    },
+    {
+      "id": "03-infrastructure",
+      "name": "Infrastructure",
+      "description": "DevOps and cloud infrastructure specialists"
+    },
+    {
+      "id": "04-quality-security",
+      "name": "Quality & Security",
+      "description": "Testing, quality assurance, and security experts"
+    },
+    {
+      "id": "05-data-ai",
+      "name": "Data & AI",
+      "description": "Machine learning, data science, and AI specialists"
+    },
+    {
+      "id": "06-developer-experience",
+      "name": "Developer Experience",
+      "description": "Tooling, productivity, and developer experience specialists"
+    },
+    {
+      "id": "07-specialized-domains",
+      "name": "Specialized Domains",
+      "description": "Domain-specific experts for various industries and use cases"
+    },
+    {
+      "id": "08-business-product",
+      "name": "Business & Product",
+      "description": "Product management, business analysis, and strategy experts"
+    },
+    {
+      "id": "09-meta-orchestration",
+      "name": "Meta & Orchestration",
+      "description": "Agent coordination and multi-agent orchestration specialists"
+    },
+    {
+      "id": "10-research-analysis",
+      "name": "Research & Analysis",
+      "description": "Research, analysis, and documentation specialists"
+    }
+  ],
+  "subagents": {
+    "path": "categories",
+    "format": "markdown",
+    "metadata_format": "yaml-frontmatter"
+  },
+  "features": [
+    "100+ pre-configured subagents",
+    "Organized by functional categories",
+    "YAML frontmatter metadata",
+    "Ready for Claude Code integration",
+    "MIT licensed",
+    "Community-driven"
+  ],
+  "compatibility": {
+    "clsync": ">=1.0.0",
+    "claude": "3.x"
+  }
+}

@@ -1,81 +1,767 @@
 {
-  "name": "clsync-awesome-claude-code-subagents",
+  "$schema": "https://clsync.dev/schema/v1.json",
   "version": "1.0.0",
+  "name": "clsync-awesome-claude-code-subagents",
   "description": "100+ specialized AI subagents for full-stack development, DevOps, data science, and business operations",
-  "type": "subagent-collection",
   "author": "workromancer",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/workromancer/clsync-awesome-claude-code-subagents"
-  },
-  "categories": [
+  "created_at": "2026-01-01T00:00:00.000Z",
+  "updated_at": "2026-01-01T05:36:21.466739Z",
+  "items": [
     {
-      "id": "01-core-development",
-      "name": "Core Development",
-      "description": "Essential development subagents covering full-stack, frontend, backend, and specialized roles"
+      "type": "agent",
+      "name": "accessibility-tester",
+      "path": "agents/accessibility-tester.md",
+      "description": "Specialized subagent: accessibility-tester"
     },
     {
-      "id": "02-language-specialists",
-      "name": "Language Specialists",
-      "description": "Language-specific expert agents for various programming languages"
+      "type": "agent",
+      "name": "ad-security-reviewer",
+      "path": "agents/ad-security-reviewer.md",
+      "description": "Specialized subagent: ad-security-reviewer"
     },
     {
-      "id": "03-infrastructure",
-      "name": "Infrastructure",
-      "description": "DevOps and cloud infrastructure specialists"
+      "type": "agent",
+      "name": "agent-organizer",
+      "path": "agents/agent-organizer.md",
+      "description": "Specialized subagent: agent-organizer"
     },
     {
-      "id": "04-quality-security",
-      "name": "Quality & Security",
-      "description": "Testing, quality assurance, and security experts"
+      "type": "agent",
+      "name": "ai-engineer",
+      "path": "agents/ai-engineer.md",
+      "description": "Specialized subagent: ai-engineer"
     },
     {
-      "id": "05-data-ai",
-      "name": "Data & AI",
-      "description": "Machine learning, data science, and AI specialists"
+      "type": "agent",
+      "name": "angular-architect",
+      "path": "agents/angular-architect.md",
+      "description": "Specialized subagent: angular-architect"
     },
     {
-      "id": "06-developer-experience",
-      "name": "Developer Experience",
-      "description": "Tooling, productivity, and developer experience specialists"
+      "type": "agent",
+      "name": "api-designer",
+      "path": "agents/api-designer.md",
+      "description": "Specialized subagent: api-designer"
     },
     {
-      "id": "07-specialized-domains",
-      "name": "Specialized Domains",
-      "description": "Domain-specific experts for various industries and use cases"
+      "type": "agent",
+      "name": "api-documenter",
+      "path": "agents/api-documenter.md",
+      "description": "Specialized subagent: api-documenter"
     },
     {
-      "id": "08-business-product",
-      "name": "Business & Product",
-      "description": "Product management, business analysis, and strategy experts"
+      "type": "agent",
+      "name": "architect-reviewer",
+      "path": "agents/architect-reviewer.md",
+      "description": "Specialized subagent: architect-reviewer"
     },
     {
-      "id": "09-meta-orchestration",
-      "name": "Meta & Orchestration",
-      "description": "Agent coordination and multi-agent orchestration specialists"
+      "type": "agent",
+      "name": "azure-infra-engineer",
+      "path": "agents/azure-infra-engineer.md",
+      "description": "Specialized subagent: azure-infra-engineer"
     },
     {
-      "id": "10-research-analysis",
-      "name": "Research & Analysis",
-      "description": "Research, analysis, and documentation specialists"
+      "type": "agent",
+      "name": "backend-developer",
+      "path": "agents/backend-developer.md",
+      "description": "Specialized subagent: backend-developer"
+    },
+    {
+      "type": "agent",
+      "name": "blockchain-developer",
+      "path": "agents/blockchain-developer.md",
+      "description": "Specialized subagent: blockchain-developer"
+    },
+    {
+      "type": "agent",
+      "name": "build-engineer",
+      "path": "agents/build-engineer.md",
+      "description": "Specialized subagent: build-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "business-analyst",
+      "path": "agents/business-analyst.md",
+      "description": "Specialized subagent: business-analyst"
+    },
+    {
+      "type": "agent",
+      "name": "chaos-engineer",
+      "path": "agents/chaos-engineer.md",
+      "description": "Specialized subagent: chaos-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "cli-developer",
+      "path": "agents/cli-developer.md",
+      "description": "Specialized subagent: cli-developer"
+    },
+    {
+      "type": "agent",
+      "name": "cloud-architect",
+      "path": "agents/cloud-architect.md",
+      "description": "Specialized subagent: cloud-architect"
+    },
+    {
+      "type": "agent",
+      "name": "code-reviewer",
+      "path": "agents/code-reviewer.md",
+      "description": "Specialized subagent: code-reviewer"
+    },
+    {
+      "type": "agent",
+      "name": "competitive-analyst",
+      "path": "agents/competitive-analyst.md",
+      "description": "Specialized subagent: competitive-analyst"
+    },
+    {
+      "type": "agent",
+      "name": "compliance-auditor",
+      "path": "agents/compliance-auditor.md",
+      "description": "Specialized subagent: compliance-auditor"
+    },
+    {
+      "type": "agent",
+      "name": "content-marketer",
+      "path": "agents/content-marketer.md",
+      "description": "Specialized subagent: content-marketer"
+    },
+    {
+      "type": "agent",
+      "name": "context-manager",
+      "path": "agents/context-manager.md",
+      "description": "Specialized subagent: context-manager"
+    },
+    {
+      "type": "agent",
+      "name": "cpp-pro",
+      "path": "agents/cpp-pro.md",
+      "description": "Specialized subagent: cpp-pro"
+    },
+    {
+      "type": "agent",
+      "name": "csharp-developer",
+      "path": "agents/csharp-developer.md",
+      "description": "Specialized subagent: csharp-developer"
+    },
+    {
+      "type": "agent",
+      "name": "customer-success-manager",
+      "path": "agents/customer-success-manager.md",
+      "description": "Specialized subagent: customer-success-manager"
+    },
+    {
+      "type": "agent",
+      "name": "data-analyst",
+      "path": "agents/data-analyst.md",
+      "description": "Specialized subagent: data-analyst"
+    },
+    {
+      "type": "agent",
+      "name": "data-engineer",
+      "path": "agents/data-engineer.md",
+      "description": "Specialized subagent: data-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "data-researcher",
+      "path": "agents/data-researcher.md",
+      "description": "Specialized subagent: data-researcher"
+    },
+    {
+      "type": "agent",
+      "name": "data-scientist",
+      "path": "agents/data-scientist.md",
+      "description": "Specialized subagent: data-scientist"
+    },
+    {
+      "type": "agent",
+      "name": "database-administrator",
+      "path": "agents/database-administrator.md",
+      "description": "Specialized subagent: database-administrator"
+    },
+    {
+      "type": "agent",
+      "name": "database-optimizer",
+      "path": "agents/database-optimizer.md",
+      "description": "Specialized subagent: database-optimizer"
+    },
+    {
+      "type": "agent",
+      "name": "debugger",
+      "path": "agents/debugger.md",
+      "description": "Specialized subagent: debugger"
+    },
+    {
+      "type": "agent",
+      "name": "dependency-manager",
+      "path": "agents/dependency-manager.md",
+      "description": "Specialized subagent: dependency-manager"
+    },
+    {
+      "type": "agent",
+      "name": "deployment-engineer",
+      "path": "agents/deployment-engineer.md",
+      "description": "Specialized subagent: deployment-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "devops-engineer",
+      "path": "agents/devops-engineer.md",
+      "description": "Specialized subagent: devops-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "devops-incident-responder",
+      "path": "agents/devops-incident-responder.md",
+      "description": "Specialized subagent: devops-incident-responder"
+    },
+    {
+      "type": "agent",
+      "name": "django-developer",
+      "path": "agents/django-developer.md",
+      "description": "Specialized subagent: django-developer"
+    },
+    {
+      "type": "agent",
+      "name": "documentation-engineer",
+      "path": "agents/documentation-engineer.md",
+      "description": "Specialized subagent: documentation-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "dotnet-core-expert",
+      "path": "agents/dotnet-core-expert.md",
+      "description": "Specialized subagent: dotnet-core-expert"
+    },
+    {
+      "type": "agent",
+      "name": "dotnet-framework-4.8-expert",
+      "path": "agents/dotnet-framework-4.8-expert.md",
+      "description": "Specialized subagent: dotnet-framework-4.8-expert"
+    },
+    {
+      "type": "agent",
+      "name": "dx-optimizer",
+      "path": "agents/dx-optimizer.md",
+      "description": "Specialized subagent: dx-optimizer"
+    },
+    {
+      "type": "agent",
+      "name": "electron-pro",
+      "path": "agents/electron-pro.md",
+      "description": "Specialized subagent: electron-pro"
+    },
+    {
+      "type": "agent",
+      "name": "embedded-systems",
+      "path": "agents/embedded-systems.md",
+      "description": "Specialized subagent: embedded-systems"
+    },
+    {
+      "type": "agent",
+      "name": "error-coordinator",
+      "path": "agents/error-coordinator.md",
+      "description": "Specialized subagent: error-coordinator"
+    },
+    {
+      "type": "agent",
+      "name": "error-detective",
+      "path": "agents/error-detective.md",
+      "description": "Specialized subagent: error-detective"
+    },
+    {
+      "type": "agent",
+      "name": "fintech-engineer",
+      "path": "agents/fintech-engineer.md",
+      "description": "Specialized subagent: fintech-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "flutter-expert",
+      "path": "agents/flutter-expert.md",
+      "description": "Specialized subagent: flutter-expert"
+    },
+    {
+      "type": "agent",
+      "name": "frontend-developer",
+      "path": "agents/frontend-developer.md",
+      "description": "Specialized subagent: frontend-developer"
+    },
+    {
+      "type": "agent",
+      "name": "fullstack-developer",
+      "path": "agents/fullstack-developer.md",
+      "description": "Specialized subagent: fullstack-developer"
+    },
+    {
+      "type": "agent",
+      "name": "game-developer",
+      "path": "agents/game-developer.md",
+      "description": "Specialized subagent: game-developer"
+    },
+    {
+      "type": "agent",
+      "name": "git-workflow-manager",
+      "path": "agents/git-workflow-manager.md",
+      "description": "Specialized subagent: git-workflow-manager"
+    },
+    {
+      "type": "agent",
+      "name": "golang-pro",
+      "path": "agents/golang-pro.md",
+      "description": "Specialized subagent: golang-pro"
+    },
+    {
+      "type": "agent",
+      "name": "graphql-architect",
+      "path": "agents/graphql-architect.md",
+      "description": "Specialized subagent: graphql-architect"
+    },
+    {
+      "type": "agent",
+      "name": "incident-responder",
+      "path": "agents/incident-responder.md",
+      "description": "Specialized subagent: incident-responder"
+    },
+    {
+      "type": "agent",
+      "name": "iot-engineer",
+      "path": "agents/iot-engineer.md",
+      "description": "Specialized subagent: iot-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "it-ops-orchestrator",
+      "path": "agents/it-ops-orchestrator.md",
+      "description": "Specialized subagent: it-ops-orchestrator"
+    },
+    {
+      "type": "agent",
+      "name": "java-architect",
+      "path": "agents/java-architect.md",
+      "description": "Specialized subagent: java-architect"
+    },
+    {
+      "type": "agent",
+      "name": "javascript-pro",
+      "path": "agents/javascript-pro.md",
+      "description": "Specialized subagent: javascript-pro"
+    },
+    {
+      "type": "agent",
+      "name": "knowledge-synthesizer",
+      "path": "agents/knowledge-synthesizer.md",
+      "description": "Specialized subagent: knowledge-synthesizer"
+    },
+    {
+      "type": "agent",
+      "name": "kotlin-specialist",
+      "path": "agents/kotlin-specialist.md",
+      "description": "Specialized subagent: kotlin-specialist"
+    },
+    {
+      "type": "agent",
+      "name": "kubernetes-specialist",
+      "path": "agents/kubernetes-specialist.md",
+      "description": "Specialized subagent: kubernetes-specialist"
+    },
+    {
+      "type": "agent",
+      "name": "laravel-specialist",
+      "path": "agents/laravel-specialist.md",
+      "description": "Specialized subagent: laravel-specialist"
+    },
+    {
+      "type": "agent",
+      "name": "legacy-modernizer",
+      "path": "agents/legacy-modernizer.md",
+      "description": "Specialized subagent: legacy-modernizer"
+    },
+    {
+      "type": "agent",
+      "name": "legal-advisor",
+      "path": "agents/legal-advisor.md",
+      "description": "Specialized subagent: legal-advisor"
+    },
+    {
+      "type": "agent",
+      "name": "llm-architect",
+      "path": "agents/llm-architect.md",
+      "description": "Specialized subagent: llm-architect"
+    },
+    {
+      "type": "agent",
+      "name": "m365-admin",
+      "path": "agents/m365-admin.md",
+      "description": "Specialized subagent: m365-admin"
+    },
+    {
+      "type": "agent",
+      "name": "machine-learning-engineer",
+      "path": "agents/machine-learning-engineer.md",
+      "description": "Specialized subagent: machine-learning-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "market-researcher",
+      "path": "agents/market-researcher.md",
+      "description": "Specialized subagent: market-researcher"
+    },
+    {
+      "type": "agent",
+      "name": "mcp-developer",
+      "path": "agents/mcp-developer.md",
+      "description": "Specialized subagent: mcp-developer"
+    },
+    {
+      "type": "agent",
+      "name": "microservices-architect",
+      "path": "agents/microservices-architect.md",
+      "description": "Specialized subagent: microservices-architect"
+    },
+    {
+      "type": "agent",
+      "name": "ml-engineer",
+      "path": "agents/ml-engineer.md",
+      "description": "Specialized subagent: ml-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "mlops-engineer",
+      "path": "agents/mlops-engineer.md",
+      "description": "Specialized subagent: mlops-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "mobile-app-developer",
+      "path": "agents/mobile-app-developer.md",
+      "description": "Specialized subagent: mobile-app-developer"
+    },
+    {
+      "type": "agent",
+      "name": "mobile-developer",
+      "path": "agents/mobile-developer.md",
+      "description": "Specialized subagent: mobile-developer"
+    },
+    {
+      "type": "agent",
+      "name": "multi-agent-coordinator",
+      "path": "agents/multi-agent-coordinator.md",
+      "description": "Specialized subagent: multi-agent-coordinator"
+    },
+    {
+      "type": "agent",
+      "name": "network-engineer",
+      "path": "agents/network-engineer.md",
+      "description": "Specialized subagent: network-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "nextjs-developer",
+      "path": "agents/nextjs-developer.md",
+      "description": "Specialized subagent: nextjs-developer"
+    },
+    {
+      "type": "agent",
+      "name": "nlp-engineer",
+      "path": "agents/nlp-engineer.md",
+      "description": "Specialized subagent: nlp-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "payment-integration",
+      "path": "agents/payment-integration.md",
+      "description": "Specialized subagent: payment-integration"
+    },
+    {
+      "type": "agent",
+      "name": "penetration-tester",
+      "path": "agents/penetration-tester.md",
+      "description": "Specialized subagent: penetration-tester"
+    },
+    {
+      "type": "agent",
+      "name": "performance-engineer",
+      "path": "agents/performance-engineer.md",
+      "description": "Specialized subagent: performance-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "performance-monitor",
+      "path": "agents/performance-monitor.md",
+      "description": "Specialized subagent: performance-monitor"
+    },
+    {
+      "type": "agent",
+      "name": "php-pro",
+      "path": "agents/php-pro.md",
+      "description": "Specialized subagent: php-pro"
+    },
+    {
+      "type": "agent",
+      "name": "platform-engineer",
+      "path": "agents/platform-engineer.md",
+      "description": "Specialized subagent: platform-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "postgres-pro",
+      "path": "agents/postgres-pro.md",
+      "description": "Specialized subagent: postgres-pro"
+    },
+    {
+      "type": "agent",
+      "name": "powershell-5.1-expert",
+      "path": "agents/powershell-5.1-expert.md",
+      "description": "Specialized subagent: powershell-5.1-expert"
+    },
+    {
+      "type": "agent",
+      "name": "powershell-7-expert",
+      "path": "agents/powershell-7-expert.md",
+      "description": "Specialized subagent: powershell-7-expert"
+    },
+    {
+      "type": "agent",
+      "name": "powershell-module-architect",
+      "path": "agents/powershell-module-architect.md",
+      "description": "Specialized subagent: powershell-module-architect"
+    },
+    {
+      "type": "agent",
+      "name": "powershell-security-hardening",
+      "path": "agents/powershell-security-hardening.md",
+      "description": "Specialized subagent: powershell-security-hardening"
+    },
+    {
+      "type": "agent",
+      "name": "powershell-ui-architect",
+      "path": "agents/powershell-ui-architect.md",
+      "description": "Specialized subagent: powershell-ui-architect"
+    },
+    {
+      "type": "agent",
+      "name": "product-manager",
+      "path": "agents/product-manager.md",
+      "description": "Specialized subagent: product-manager"
+    },
+    {
+      "type": "agent",
+      "name": "project-manager",
+      "path": "agents/project-manager.md",
+      "description": "Specialized subagent: project-manager"
+    },
+    {
+      "type": "agent",
+      "name": "prompt-engineer",
+      "path": "agents/prompt-engineer.md",
+      "description": "Specialized subagent: prompt-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "python-pro",
+      "path": "agents/python-pro.md",
+      "description": "Specialized subagent: python-pro"
+    },
+    {
+      "type": "agent",
+      "name": "qa-expert",
+      "path": "agents/qa-expert.md",
+      "description": "Specialized subagent: qa-expert"
+    },
+    {
+      "type": "agent",
+      "name": "quant-analyst",
+      "path": "agents/quant-analyst.md",
+      "description": "Specialized subagent: quant-analyst"
+    },
+    {
+      "type": "agent",
+      "name": "rails-expert",
+      "path": "agents/rails-expert.md",
+      "description": "Specialized subagent: rails-expert"
+    },
+    {
+      "type": "agent",
+      "name": "react-specialist",
+      "path": "agents/react-specialist.md",
+      "description": "Specialized subagent: react-specialist"
+    },
+    {
+      "type": "agent",
+      "name": "refactoring-specialist",
+      "path": "agents/refactoring-specialist.md",
+      "description": "Specialized subagent: refactoring-specialist"
+    },
+    {
+      "type": "agent",
+      "name": "research-analyst",
+      "path": "agents/research-analyst.md",
+      "description": "Specialized subagent: research-analyst"
+    },
+    {
+      "type": "agent",
+      "name": "risk-manager",
+      "path": "agents/risk-manager.md",
+      "description": "Specialized subagent: risk-manager"
+    },
+    {
+      "type": "agent",
+      "name": "rust-engineer",
+      "path": "agents/rust-engineer.md",
+      "description": "Specialized subagent: rust-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "sales-engineer",
+      "path": "agents/sales-engineer.md",
+      "description": "Specialized subagent: sales-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "scrum-master",
+      "path": "agents/scrum-master.md",
+      "description": "Specialized subagent: scrum-master"
+    },
+    {
+      "type": "agent",
+      "name": "search-specialist",
+      "path": "agents/search-specialist.md",
+      "description": "Specialized subagent: search-specialist"
+    },
+    {
+      "type": "agent",
+      "name": "security-auditor",
+      "path": "agents/security-auditor.md",
+      "description": "Specialized subagent: security-auditor"
+    },
+    {
+      "type": "agent",
+      "name": "security-engineer",
+      "path": "agents/security-engineer.md",
+      "description": "Specialized subagent: security-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "seo-specialist",
+      "path": "agents/seo-specialist.md",
+      "description": "Specialized subagent: seo-specialist"
+    },
+    {
+      "type": "agent",
+      "name": "spring-boot-engineer",
+      "path": "agents/spring-boot-engineer.md",
+      "description": "Specialized subagent: spring-boot-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "sql-pro",
+      "path": "agents/sql-pro.md",
+      "description": "Specialized subagent: sql-pro"
+    },
+    {
+      "type": "agent",
+      "name": "sre-engineer",
+      "path": "agents/sre-engineer.md",
+      "description": "Specialized subagent: sre-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "swift-expert",
+      "path": "agents/swift-expert.md",
+      "description": "Specialized subagent: swift-expert"
+    },
+    {
+      "type": "agent",
+      "name": "task-distributor",
+      "path": "agents/task-distributor.md",
+      "description": "Specialized subagent: task-distributor"
+    },
+    {
+      "type": "agent",
+      "name": "technical-writer",
+      "path": "agents/technical-writer.md",
+      "description": "Specialized subagent: technical-writer"
+    },
+    {
+      "type": "agent",
+      "name": "terraform-engineer",
+      "path": "agents/terraform-engineer.md",
+      "description": "Specialized subagent: terraform-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "test-automator",
+      "path": "agents/test-automator.md",
+      "description": "Specialized subagent: test-automator"
+    },
+    {
+      "type": "agent",
+      "name": "tooling-engineer",
+      "path": "agents/tooling-engineer.md",
+      "description": "Specialized subagent: tooling-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "trend-analyst",
+      "path": "agents/trend-analyst.md",
+      "description": "Specialized subagent: trend-analyst"
+    },
+    {
+      "type": "agent",
+      "name": "typescript-pro",
+      "path": "agents/typescript-pro.md",
+      "description": "Specialized subagent: typescript-pro"
+    },
+    {
+      "type": "agent",
+      "name": "ui-designer",
+      "path": "agents/ui-designer.md",
+      "description": "Specialized subagent: ui-designer"
+    },
+    {
+      "type": "agent",
+      "name": "ux-researcher",
+      "path": "agents/ux-researcher.md",
+      "description": "Specialized subagent: ux-researcher"
+    },
+    {
+      "type": "agent",
+      "name": "vue-expert",
+      "path": "agents/vue-expert.md",
+      "description": "Specialized subagent: vue-expert"
+    },
+    {
+      "type": "agent",
+      "name": "websocket-engineer",
+      "path": "agents/websocket-engineer.md",
+      "description": "Specialized subagent: websocket-engineer"
+    },
+    {
+      "type": "agent",
+      "name": "windows-infra-admin",
+      "path": "agents/windows-infra-admin.md",
+      "description": "Specialized subagent: windows-infra-admin"
+    },
+    {
+      "type": "agent",
+      "name": "wordpress-master",
+      "path": "agents/wordpress-master.md",
+      "description": "Specialized subagent: wordpress-master"
+    },
+    {
+      "type": "agent",
+      "name": "workflow-orchestrator",
+      "path": "agents/workflow-orchestrator.md",
+      "description": "Specialized subagent: workflow-orchestrator"
     }
   ],
-  "subagents": {
-    "path": "categories",
-    "format": "markdown",
-    "metadata_format": "yaml-frontmatter"
-  },
-  "features": [
-    "100+ pre-configured subagents",
-    "Organized by functional categories",
-    "YAML frontmatter metadata",
-    "Ready for Claude Code integration",
-    "MIT licensed",
-    "Community-driven"
-  ],
-  "compatibility": {
-    "clsync": ">=1.0.0",
-    "claude": "3.x"
+  "stats": {
+    "skills": 0,
+    "agents": 125,
+    "output_styles": 0,
+    "total": 125
   }
 }
